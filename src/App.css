@@ -1,0 +1,61 @@
+.form-control {
+  border-color: #cca5cf;
+}
+
+.form-control:focus {
+  border-color: #cca5cf;
+  box-shadow: 0 0 0 0.25rem #cac0ce9c;
+}
+
+.btn:focus, .btn:focus:active {
+  box-shadow: 0 0 0 0.25rem rgb(211 195 212 / 50%);
+}
+
+.btn-secondary {
+  background-color: #bba2c59c;
+  color: #fff;
+  border-color: #cca5cf;
+}
+
+.btn-outline-secondary{
+  color: #cca5cf;
+  border-color: #cca5cf;
+}
+
+.btn-outline-secondary:hover, .btn-secondary:hover,
+.btn-outline-secondary:focus, .btn-secondary:focus {
+  background-color: #bba2c59c;
+  border-color: #cca5cf;
+}
+
+.input-group-text {
+  background-color: #bba2c59c;
+  border: 1px solid #cca5cf;
+}
+
+.form-check-input {
+  border: 1px solid #cca5cf;
+}
+
+.form-check-input:checked {
+  background-color: #bba2c59c;
+  border-color: #cca5cf;
+}
+
+.form-check-input:focus {
+  border-color: #cca5cf;
+  box-shadow: 0 0 0 0.25rem #bba2c59c;
+}
+
+.btn-close:hover {
+  color: #cca5cf;
+}
+
+.btn-close:hover {
+  box-shadow: none;
+}
+
+.done {
+  text-decoration: line-through;
+  opacity: .5;
+}
